@@ -1,0 +1,2 @@
+
+:hi CursorLine   cterm=bold ctermbg=white ctermfg=black guibg=darkred guifg=white
