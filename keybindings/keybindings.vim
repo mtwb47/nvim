@@ -34,3 +34,9 @@ nnoremap <Right> <nop>
 
 nnoremap Q <nop>
 
+" Tabs
+nnoremap <C-r>h :tabr<cr>
+nnoremap <C-r>l :tabl<cr>
+nnoremap <C-r>j :tabp<cr>
+nnoremap <C-r>k :tabn<cr>
+nnoremap <C-r>t :tabnew<cr>
