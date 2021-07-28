@@ -40,3 +40,9 @@ nnoremap <C-r>l :tabl<cr>
 nnoremap <C-r>j :tabp<cr>
 nnoremap <C-r>k :tabn<cr>
 nnoremap <C-r>t :tabnew<cr>
+
+
+nnoremap n h|xnoremap n h|onoremap n h|
+nnoremap e j|xnoremap e j|onoremap e j|
+nnoremap i k|xnoremap i k|onoremap i k|
+nnoremap o l|xnoremap o l|onoremap o l|

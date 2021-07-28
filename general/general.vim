@@ -7,8 +7,8 @@ let g:limelight_conceal_guifg = '#777777'
 set shiftwidth=4 autoindent smartindent tabstop=4 softtabstop=4 expandtab
 
 set number relativenumber
-let g:vimwiki_list = [{'path': '~/media/Documents/vimwiki', 'path_html': '~/media/Documents/public_html/'},
-	    \ {'path': '~/media/Documents/journal', 'path_html': '~/media/Documents/public_html/journal/'}]
+let g:vimwiki_list = [{'path': '~/media/Documents/vimwiki', 'path_html': '~/media/Documents/public_html/'}, 
+    \ {'path': '~/media/Documents/journal', 'path_html': '~/media/Documents/public_html/journal/'}]
 
 set viminfo='10,\"100,:20,%,n~/.viminfo
 set termguicolors
@@ -44,21 +44,8 @@ endfunction
 autocmd! User GoyoEnter nested call <SID>goyo_enter()
 autocmd! User GoyoLeave nested call <SID>goyo_leave()
 
-
-
-" configure nvcode-color-schemes
-let g:nvcode_termcolors=256
-
 syntax on
-colorscheme mypurple " Or whatever colorscheme you make
-
-
-" checks if your terminal has 24-bit color support
-if (has("termguicolors"))
-    set termguicolors
-    hi LineNr ctermbg=NONE guibg=NONE
-endif
-
+colorscheme onedark 
 
 
 let g:startify_bookmarks = [

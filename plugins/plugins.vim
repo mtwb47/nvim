@@ -7,6 +7,6 @@ Plug 'farmergreg/vim-lastplace'
 Plug 'mhinz/vim-startify'
 Plug 'vimwiki/vimwiki'
 Plug 'junegunn/limelight.vim'
-Plug 'christianchiarulli/nvcode-color-schemes.vim'
+Plug 'joshdick/onedark.vim'
 Plug 'junegunn/goyo.vim'
 call plug#end()
