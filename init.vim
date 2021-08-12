@@ -3,6 +3,8 @@
 source $HOME/.config/nvim/general/general.vim
 source $HOME/.config/nvim/keybindings/keybindings.vim
 source $HOME/.config/nvim/plugins/plugins.vim
-source $HOME/.config/nvim/colors/mypurple.vim
+
+" let g:onedark_style = 'darker'
+colorscheme gruvbox
 
 

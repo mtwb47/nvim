@@ -3,8 +3,9 @@ let mapleader = " "
 let g:limelight_conceal_ctermfg = 240
 let g:limelight_conceal_guifg = '#777777'
 
-
+set noswapfile incsearch
 set shiftwidth=4 autoindent smartindent tabstop=4 softtabstop=4 expandtab
+set scrolloff=999
 
 set number relativenumber
 let g:vimwiki_list = [{'path': '~/media/Documents/vimwiki', 'path_html': '~/media/Documents/public_html/'}, 
@@ -22,7 +23,6 @@ let wiki_2.path = '~/media/Documents/journal'
 
 :hi CursorLine   cterm=bold ctermbg=white ctermfg=black 
 :set cursorline
-
 
 "Goyo Settings
 function! s:goyo_enter()
@@ -45,8 +45,8 @@ autocmd! User GoyoEnter nested call <SID>goyo_enter()
 autocmd! User GoyoLeave nested call <SID>goyo_leave()
 
 syntax on
-colorscheme onedark 
-
+"let g:onedark_style = 'darker'
+"colorscheme onedark
 
 let g:startify_bookmarks = [
             \ { 'c': '~/.xmonad/xmonad.hs' },
