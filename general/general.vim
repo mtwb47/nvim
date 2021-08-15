@@ -9,7 +9,8 @@ set scrolloff=999
 
 set number relativenumber
 let g:vimwiki_list = [{'path': '~/media/Documents/vimwiki', 'path_html': '~/media/Documents/public_html/'}, 
-    \ {'path': '~/media/Documents/journal', 'path_html': '~/media/Documents/public_html/journal/'}]
+            \ {'path': '~/media/Documents/journal', 'path_html': '~/media/Documents/public_html/journal/'},
+            \ {'path': '~/media/Documents/fd', 'path_html': '~/media/Documents/fd/'}]
 
 set viminfo='10,\"100,:20,%,n~/.viminfo
 set termguicolors
@@ -20,6 +21,8 @@ let wiki_1 = {}
 let wiki_1.path = '~/media/Documents/vimwiki'
 let wiki_2 = {}
 let wiki_2.path = '~/media/Documents/journal'
+let wiki_3 = {}
+let wiki_3.path = '~/media/Documents/fd'
 
 :hi CursorLine   cterm=bold ctermbg=white ctermfg=black 
 :set cursorline

@@ -35,11 +35,11 @@ nnoremap <Right> <nop>
 nnoremap Q <nop>
 
 " Tabs
-nnoremap <C-r>h :tabr<cr>
-nnoremap <C-r>l :tabl<cr>
-nnoremap <C-r>j :tabp<cr>
-nnoremap <C-r>k :tabn<cr>
-nnoremap <C-r>t :tabnew<cr>
+nnoremap <C-l>h :tabr<cr>
+nnoremap <C-l>l :tabl<cr>
+nnoremap <C-l>j :tabp<cr>
+nnoremap <C-l>k :tabn<cr>
+nnoremap <C-l>t :tabnew<cr>
 
 "noremap <silent> <C-l> :move -2<CR>
 "noremap <silent> <C-k> :move +1<CR>
