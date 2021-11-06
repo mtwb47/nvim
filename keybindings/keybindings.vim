@@ -21,10 +21,13 @@ nnoremap <C-n> :NERDTree<CR>
 nnoremap <C-t> :NERDTreeToggle<CR>
 nnoremap <C-f> :NERDTreeFind<CR>
 
+nnoremap <C-s> :noh<CR>
+
 " Goyo
 nnoremap <C-g> :Goyo<CR>
 
 nnoremap <leader>s :source ~/.config/nvim/init.vim<CR>
+nnoremap <leader>v :e ~/.config/nvim/init.vim<CR>
 
 "Disable Arrow Keys
 nnoremap <Up> <nop>
@@ -40,6 +43,12 @@ nnoremap <C-l>l :tabl<cr>
 nnoremap <C-l>j :tabp<cr>
 nnoremap <C-l>k :tabn<cr>
 nnoremap <C-l>t :tabnew<cr>
+
+
+
+nmap <silent> <Leader>vd :VimwikiDiaryIndex<cr>
+nmap <silent> <Leader>dd  :VimwikiTabMakeDiaryNote<cr>
+
 
 "noremap <silent> <C-l> :move -2<CR>
 "noremap <silent> <C-k> :move +1<CR>

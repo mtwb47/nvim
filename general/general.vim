@@ -9,7 +9,7 @@ set scrolloff=999
 
 set number relativenumber
 let g:vimwiki_list = [{'path': '~/media/Documents/vimwiki', 'path_html': '~/media/Documents/public_html/'}, 
-            \ {'path': '~/media/Documents/journal', 'path_html': '~/media/Documents/public_html/journal/'},
+            \ {'path': '~/media/Documents/journal', 'path_html': '~/media/Documents/public_html/journal/', 'auto_diary_index': 1, 'template_path': '~/Documents/vimwiki/'},
             \ {'path': '~/media/Documents/fd', 'path_html': '~/media/Documents/fd/'}]
 
 set viminfo='10,\"100,:20,%,n~/.viminfo
@@ -52,6 +52,7 @@ syntax on
 "colorscheme onedark
 
 let g:startify_bookmarks = [
+            \ { 'd': '~/media/Documents/journal/diary/diary.wiki' },
             \ { 'c': '~/.xmonad/xmonad.hs' },
             \ { 'i': '~/.config/nvim/init.vim' },
             \ { 'z': '~/.zshrc' },
