@@ -1,1 +1,1 @@
-These are Matt's nvim config files. They are an eternal work in progress. Use at your own risk.
+This is old. I am in the process of moving all of my stuff to gitlab. You can find the new repo here. https://gitlab.com/thelinuxcast/nvim
